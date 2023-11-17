@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<manifest>
+    <remote name="vendor"
+            fetch="https://github.com"
+            revision="lineage-17.1" />
+	
+    <remote name="device"
+            fetch="https://github.com"
+            revision="rb"/>
+
+    <remote name="kernel"
+            fetch="https://github.com"
+            revision="lineage-17.1"/>
+
+    <!-- <remote name="hardware"
+            fetch="https://github.com"
+            revision="lineage-17.1"/> -->
+
+    <!--Device Trees-->
+    <project path="device/oppo/A37" name="OPPO-A37/rb_device_oppo_A37" remote="device" />
+
+    <!--Kernel-->
+    <project path="kernel/oppo/msm8939" name="OPPO-A37/kernel_oppo_A37-old" remote="kernel" />
+
+    <!-- Vendor folders -->
+    <project path="vendor/oppo" name="OPPO-A37/rb-vendor_oppo" remote="vendor" />
+
+    <!-- Hardware folders -->
+    <!-- <project path="hardware/samsung" name="LineageOS/android_hardware_samsung" remote="hardware" /> -->
+    
+</manifest>
