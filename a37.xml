@@ -13,9 +13,9 @@
             fetch="https://github.com"
             revision="lineage-17.1"/>
 
-    <!-- <remote name="hardware"
+    <remote name="apps_apk"
             fetch="https://github.com"
-            revision="lineage-17.1"/> -->
+            revision="lineage-17.1"/>
 
     <!--Device Trees-->
     <project path="device/oppo/A37" name="OPPO-A37/rb_device_oppo_A37" remote="device" />
@@ -26,7 +26,12 @@
     <!-- Vendor folders -->
     <project path="vendor/oppo" name="OPPO-A37/rb-vendor_oppo" remote="vendor" />
 
-    <!-- Hardware folders -->
-    <!-- <project path="hardware/samsung" name="LineageOS/android_hardware_samsung" remote="hardware" /> -->
-    
+    <!-- Apps apk folders -->
+    <project path="packages/apps/package_name" name="NTTKDeveloper/android_packages_apps_package_name" remote="apps_apk" />
+
+    <project path="packages/apps/power_button" name="NTTKDeveloper/android_packages_apps_power_button" remote="apps_apk" />
+
+    <project path="packages/apps/system_remover" name="NTTKDeveloper/android_packages_apps_system_remover" remote="apps_apk" />
+
+    <project path="packages/apps/termux" name="NTTKDeveloper/android_packages_apps_termux" remote="apps_apk" />
 </manifest>
