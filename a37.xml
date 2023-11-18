@@ -15,7 +15,7 @@
 
     <remote name="apps_apk"
             fetch="https://github.com"
-            revision="lineage-17.1"/>
+            revision="master"/>
 
     <!--Device Trees-->
     <project path="device/oppo/A37" name="OPPO-A37/rb_device_oppo_A37" remote="device" />
